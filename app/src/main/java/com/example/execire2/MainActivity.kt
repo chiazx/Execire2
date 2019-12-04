@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             var hei:Double=height.text.toString().toDouble()/100
 
             var BMI:Double="%.2f".format(wei/(hei*hei)).toDouble()
-            bmi.text="BMI :" + BMI.toString()
+            bmi.text="BMI :" + BMI.toString()//try one
 
             if(BMI<18.5)
             {
